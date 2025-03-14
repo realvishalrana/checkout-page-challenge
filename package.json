@@ -3,9 +3,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "react-router build",
-    "dev": "react-router dev",
-    "start": "react-router-serve ./build/server/index.js",
+    "build": "node init && react-router build",
+    "dev": "node init && react-router dev",
+    "start": "node init && react-router-serve ./build/server/index.js",
     "json-server": "json-server --watch app/json-server/data.json --port 3001",
     "typecheck": "react-router typegen && tsc"
   },
@@ -15,6 +15,7 @@
     "axios": "^1.8.3",
     "dotenv": "^16.4.7",
     "isbot": "^5.1.17",
+    "node-fetch": "^3.3.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-router": "^7.3.0"

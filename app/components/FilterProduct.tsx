@@ -2,12 +2,12 @@ import React from "react";
 
 interface FilterTypeProps {
   filter: { type: string; category: string };
-  setFileter: React.Dispatch<
+  setFilter: React.Dispatch<
     React.SetStateAction<{ type: string; category: string }>
   >;
 }
 
-const FilterProduct = ({ filter, setFileter }: FilterTypeProps) => {
+const FilterProduct = ({ filter, setFilter }: FilterTypeProps) => {
   const types = ["high", "medium", "low"];
   const categories = ["Electronics", "Wearables", "Cameras"];
 
@@ -19,7 +19,7 @@ const FilterProduct = ({ filter, setFileter }: FilterTypeProps) => {
           className="border border-gray-300 rounded p-2"
           value={filter.type}
           onChange={(e) =>
-            setFileter((prev) => ({ ...prev, type: e.target.value }))
+            setFilter((prev) => ({ ...prev, type: e.target.value }))
           }
         >
           <option value="">Select Type</option>
@@ -36,7 +36,7 @@ const FilterProduct = ({ filter, setFileter }: FilterTypeProps) => {
           className="border border-gray-300 rounded p-2"
           value={filter.category}
           onChange={(e) =>
-            setFileter((prev) => ({ ...prev, category: e.target.value }))
+            setFilter((prev) => ({ ...prev, category: e.target.value }))
           }
         >
           <option value="">Select Categories</option>

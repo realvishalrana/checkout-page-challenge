@@ -5,12 +5,12 @@ import FilterProduct from "./FilterProduct";
 import useProductList from "~/hooks/useProductList";
 
 const ProductList = () => {
-  const { productList, setProductList, filter, setFileter } = useProductList();
+  const { productList, setProductList, filter, setFilter } = useProductList();
   const length = productList.length;
 
   return (
     <div className="space-y-6">
-      <FilterProduct filter={filter} setFileter={setFileter} />
+      <FilterProduct filter={filter} setFilter={setFilter} />
       <div className="space-y-4">
         {productList.map((product: ProductType, index: number) => (
           <div key={product.id} className="bg-white p-4 rounded shadow">
