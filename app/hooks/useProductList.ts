@@ -11,7 +11,7 @@ const useProductList = () => {
 
 
   const getProductList = () => {
-    let query = "http://localhost:3001/products?";
+    let query = `${import.meta.env.VITE_APP_API}?`;
     if (filter.type) query += `type=${filter.type}&`;
     if (filter.category) query += `category=${filter.category}`;
 
