@@ -1,0 +1,94 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "iPhone 15",
+      "productName": "Smartphone",
+      "price": 999,
+      "type": "high",
+      "maxQuantity": 25,
+      "image": "https://plus.unsplash.com/premium_photo-1680985551009-05107cd2752c?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D3&auto=format&fit=crop&w=1170&q=80"
+    },
+    {
+      "id": 2,
+      "name": "Galaxy S23",
+      "productName": "Smartphone",
+      "price": 899,
+      "type": "medium",
+      "maxQuantity": 40,
+      "image": "https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "id": 3,
+      "name": "Pixel 7",
+      "productName": "Smartphone",
+      "price": 699,
+      "type": "low",
+      "maxQuantity": 20,
+      "image": "https://plus.unsplash.com/premium_photo-1680985551009-05107cd2752c?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D3&auto=format&fit=crop&w=1170&q=80"
+    },
+    {
+      "id": 4,
+      "name": "MacBook Pro",
+      "productName": "Laptop",
+      "price": 1399,
+      "type": "high",
+      "maxQuantity": 15,
+      "image": "https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "id": 5,
+      "name": "Dell XPS 13",
+      "productName": "Laptop",
+      "price": 1299,
+      "type": "medium",
+      "maxQuantity": 30,
+      "image": "https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "id": 6,
+      "name": "Sony WH-1000XM5",
+      "productName": "Headphones",
+      "price": 349,
+      "type": "high",
+      "maxQuantity": 10,
+      "image": "https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "id": 7,
+      "name": "Bose QC35",
+      "productName": "Headphones",
+      "price": 299,
+      "type": "low",
+      "maxQuantity": 20,
+      "image": "https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "id": 8,
+      "name": "Canon EOS R6",
+      "productName": "Camera",
+      "price": 1499,
+      "type": "high",
+      "maxQuantity": 5,
+      "image": "https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "id": 9,
+      "name": "DJI Mavic Air 2",
+      "productName": "Drone",
+      "price": 899,
+      "type": "medium",
+      "maxQuantity": 12,
+      "image": "https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "id": 10,
+      "name": "Apple Watch Series 8",
+      "productName": "Smartwatch",
+      "price": 399,
+      "type": "low",
+      "maxQuantity": 35,
+      "image": "https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    }
+  ]
+}

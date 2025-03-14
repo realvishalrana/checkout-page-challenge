@@ -6,6 +6,7 @@
     "build": "react-router build",
     "dev": "react-router dev",
     "start": "react-router-serve ./build/server/index.js",
+    "json-server": "json-server --watch app/json-server/data.json --port 3001",
     "typecheck": "react-router typegen && tsc"
   },
   "dependencies": {
@@ -22,6 +23,7 @@
     "@types/node": "^20",
     "@types/react": "^19.0.1",
     "@types/react-dom": "^19.0.1",
+    "json-server": "^1.0.0-beta.3",
     "react-router-devtools": "^1.1.0",
     "tailwindcss": "^4.0.0",
     "typescript": "^5.7.2",
