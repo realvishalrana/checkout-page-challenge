@@ -40,18 +40,20 @@ const products = [
 ```
 ├── src
 │   ├── components
-│   │   ├── ProductList.jsx
-│   │   ├── OrderSummary.jsx
-│   │   ├── PaymentMethodSelection.jsx
-│   │   ├── ShippingDetailsForm.jsx
-│   │   ├── ApplyCouponSection.jsx
-│   │   └── PlaceOrderButton.jsx
+│   │   ├── CheckoutPage.tsx
+│   │   ├── CouponSection.tsx
+│   │   ├── FilterProduct.tsx
+│   │   ├── OrderSummary.tsx
+│   │   ├── Product.tsx
+│   │   ├── ProductList.tsx
 │   ├── hooks
 │   │   └── useProductList.js
 │   ├── types
-│   │   └── index.d.ts
-│   ├── App.jsx
-│   └── index.jsx
+│   │   └── index.ts
+│   │   └── productType.ts
+│   ├── routes
+│   │   └── home.tsx
+│   ├── root.tsx
 ├── public
 │   └── index.html
 ├── tailwind.config.js
